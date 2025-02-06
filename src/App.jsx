@@ -38,18 +38,11 @@ function App() {
 
   };
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   console.log("Form Data Submitted:", formData);
-  //   // const total = formData.quantity*formData.price; 
-  //   // setFormData({ ...formData, total: total });
-  // };
-
   return (
     <div className="w-screen h-screen bg-[#262628] px-[30%] flex flex-col justify-center align-middle">
-      <div className="text-4xl text-[#FFF6EE] font-semibold mb-10">User Form</div>
+      <div className="text-5xl text-[#FFF6EE] font-semibold mb-20 text-center">User Form</div>
       <form>
-        <div className="grid grid-cols-2 gap-4 text-[#FFF6EE]">
+        <div className="grid grid-cols-2 gap-4 text-[#FFF6EE] text-2xl">
           <div className="">Enter quantity: </div>
           <input
             type="number"
